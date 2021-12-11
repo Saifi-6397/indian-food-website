@@ -1,0 +1,497 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+html {
+  font-size: 15px;
+}
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: 'Cookie', cursive;
+  font-size: 3.5rem;
+  color: #2c3a42;
+  position: relative;
+  top: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ad6c12;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+}
+
+/*start header*/
+.header {
+  width: 100%;
+  height: 100vh;
+  padding: 1rem 0;
+  background-image: url(../images/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-transform: uppercase;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.header .logo {
+  font-size: 2rem;
+}
+
+.header a {
+  font-size: 1.2rem;
+  color: #d2d6d8;
+  font-weight: bolder;
+}
+
+.header .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-transform: uppercase;
+}
+
+.header .navbar-nav .nav-link:hover {
+  color: #ad6c12;
+}
+
+.header .banner {
+  width: 30%;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  -webkit-transform: translateX(-35%);
+          transform: translateX(-35%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 3rem;
+  background-color: #d9dadab8;
+  text-transform: uppercase;
+}
+
+.header .banner .btn {
+  padding: 0.4rem 1.3rem;
+  background-color: white;
+  color: #2c3a42;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.header .banner .btn:hover {
+  background-color: #2a3b40;
+  color: #d2d6d8;
+}
+
+.header::before {
+  content: " ";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(109, 103, 103, 0.54);
+}
+
+/*--------- end header--------*/
+/*-----------start traditional------------*/
+.traditional {
+  width: 100%;
+  background-color: #2a3b40;
+  color: #d2d6d8;
+  padding: 5rem 0;
+}
+
+.traditional .text h2 {
+  font-size: 1.7rem;
+  color: #d2d6d8;
+  font-family: "Raleway", sans-serif;
+}
+
+.traditional .text p {
+  line-height: 2rem;
+  padding-top: 3rem;
+  padding-right: 3rem;
+  text-align: justify;
+}
+
+.traditional img {
+  width: 100%;
+}
+
+/*-----------end traditional section------------*/
+/*-------- start news section ---------*/
+.circle-div {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #2a3b40;
+}
+
+.news {
+  width: 100%;
+  background-color: #d2d6d8;
+  padding: 5rem 0;
+}
+
+.news .text {
+  padding-right: 2rem;
+  color: #2a3b40;
+}
+
+.news .text h3 {
+  padding: 1.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.news .text p {
+  text-align: justify;
+}
+
+/*-------- end news section ---------*/
+/*----------start ON YOUR PLATE image gallery--------------*/
+.image-gallery {
+  width: 100%;
+  padding: 5rem 0;
+  background-image: url(../images/bg-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.image-gallery .plate-div {
+  background-color: #d9dadab8;
+  padding: 0;
+}
+
+.image-gallery .plate-div h4 {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.image-gallery img {
+  width: 100%;
+}
+
+/*----------end ON YOUR PLATE image gallery--------------*/
+/*--------- start service section ----------*/
+.service {
+  background-color: #d2d6d8;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: #2c3a42;
+}
+
+.service p {
+  padding: 0 5rem;
+}
+
+.service img {
+  width: 100%;
+}
+
+.service .circle {
+  margin: 2rem 0;
+}
+
+.service a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  color: #2c3a42;
+}
+
+.service a:hover {
+  color: #ad6c12;
+}
+
+/*--------- end service section ----------*/
+/*------------- start OUR NEW MENU icon section--------*/
+.master-menu-div {
+  width: 100%;
+  min-height: 800px;
+  background-image: url(../images/bg-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 290px;
+}
+
+.master-menu-div .menu-bg {
+  width: 100%;
+  background-color: #d9dadab8;
+}
+
+.master-menu-div .menu-bg .text {
+  margin: 2rem 0;
+}
+
+.master-menu-div .menu-bg .text .heading-para {
+  padding-left: 1rem;
+}
+
+.master-menu-div .menu-bg .text h4 {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #2c3a42;
+}
+
+.master-menu-div .menu-bg .text .icon {
+  width: 100px;
+  height: 60px;
+  border-radius: 100%;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.master-menu-div img {
+  width: 100%;
+}
+
+/*------------- end OUR NEW MENU icon section--------*/
+.bg-container {
+  width: 100%;
+  min-height: 900px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../images/bg-3.jpg);
+}
+
+.booking {
+  width: 100%;
+  background-color: #2a3b40;
+  padding: 5rem 0;
+  color: #d2d6d8;
+}
+
+.booking h2 {
+  color: #d2d6d8;
+  padding-bottom: 3rem;
+}
+
+.booking input,
+.booking select {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #d2d6d8;
+  border-radius: 0.5rem;
+  height: 35px;
+  width: 90%;
+  padding-left: 0.5rem;
+  color: white;
+  margin: 0.5rem 0;
+  margin-bottom: 3rem;
+}
+
+.booking label {
+  font-size: 1.2rem;
+}
+
+.booking ::-webkit-input-placeholder {
+  color: white;
+}
+
+.booking :-ms-input-placeholder {
+  color: white;
+}
+
+.booking ::-ms-input-placeholder {
+  color: white;
+}
+
+.booking ::placeholder {
+  color: white;
+}
+
+.booking .form-btn {
+  padding: 0.5rem 4rem;
+  border: 1px solid #d2d6d8;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #d2d6d8;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.bg-container2 {
+  width: 100%;
+  min-height: 900px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../images/bg-4.png);
+}
+
+.second-menu {
+  width: 100%;
+  background-color: #d9dadab8;
+  padding: 5rem 0;
+}
+
+.second-menu img {
+  width: 100%;
+}
+
+.social-icon {
+  width: 100%;
+  background-color: #2a3b40;
+  padding-bottom: 3rem;
+  color: #d2d6d8;
+}
+
+.social-icon .content {
+  margin: 0 7rem;
+}
+
+.social-icon .content h3 {
+  font-size: 5rem;
+  position: relative;
+  top: 3rem;
+}
+
+.social-icon .content p {
+  line-height: 2rem;
+}
+
+.social-icon .share {
+  margin-top: 3rem;
+}
+
+.social-icon .share i {
+  width: 50px;
+  height: 50px;
+  padding: 0.7rem;
+  border-radius: 100%;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.social-icon .share .bi {
+  font-size: 1.5rem;
+  color: #2a3b40;
+  margin: 0 15px;
+}
+
+footer {
+  background-color: #d9dadab8;
+  padding: 5rem 0;
+}
+
+footer h4 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  padding-right: 8rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  margin: 1rem 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #2c3a42;
+}
+
+footer ul li a:hover {
+  color: #ad6c12;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-icon {
+    color: #d2d6d8;
+    font-size: 2rem;
+  }
+  .header .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+  .header .banner {
+    width: 40%;
+    left: 30%;
+  }
+  .second-menu .card-2 {
+    margin-left: 150px;
+  }
+  .second-menu .card-3 {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  #nav-icon {
+    color: #d2d6d8;
+    font-size: 2rem;
+  }
+  #nav-icon {
+    color: #d2d6d8;
+    font-size: 2rem;
+  }
+  .header .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+  .header .banner {
+    width: 60%;
+    left: 20%;
+  }
+  .service p {
+    padding: 0;
+  }
+  .booking input,
+  .booking select {
+    width: 100%;
+  }
+  .social-icon .content {
+    margin: 0;
+  }
+  .social-icon .share .bi {
+    margin: 0 0.5rem;
+  }
+  .second-menu .card-2,
+  .second-menu .card-1,
+  .second-menu .card-3 {
+    margin-left: 70px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
