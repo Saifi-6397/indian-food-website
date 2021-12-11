@@ -482,17 +482,17 @@ footer ul li a:hover {
   .booking select {
     width: 100%;
   }
+  .second-menu .card-2,
+  .second-menu .card-1,
+  .second-menu .card-3 {
+    margin-left: 13%;
+  }
   .social-icon .content {
     margin: 0;
   }
   .social-icon .share .bi {
     margin: 0 0.5rem;
     padding: 0.9rem;
-  }
-  .second-menu .card-2,
-  .second-menu .card-1,
-  .second-menu .card-3 {
-    margin-left: 13%;
   }
 }
 /*# sourceMappingURL=style.css.map */
