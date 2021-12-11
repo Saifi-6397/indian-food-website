@@ -482,10 +482,10 @@ footer ul li a:hover {
   .booking select {
     width: 100%;
   }
-  .second-menu .card-2,
   .second-menu .card-1,
+  .second-menu .card-2,
   .second-menu .card-3 {
-    margin-left: 13%;
+    margin: 0 12%;
   }
   .social-icon .content {
     margin: 0;
