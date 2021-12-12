@@ -149,7 +149,6 @@ h1 {
 }
 
 .news .text {
-  padding-right: 2rem;
   color: #2a3b40;
 }
 
@@ -475,6 +474,9 @@ footer ul li a:hover {
     width: 70%;
     left: 15%;
   }
+  .traditional .text p {
+    padding-right: 0;
+  }
   .service p {
     padding: 0;
   }
@@ -493,6 +495,12 @@ footer ul li a:hover {
   .social-icon .share .bi {
     margin: 0 0.5rem;
     padding: 0.9rem;
+  }
+  footer p {
+    padding-right: 0;
+  }
+  .col-4 {
+    padding-left: 50px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

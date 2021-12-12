@@ -155,7 +155,6 @@
      background-color: $primary-col;
      padding: 5rem 0;
      .text {
-         padding-right: 2rem;
          color: $bg-col;
          h3 {
              padding: 1.5rem 0;
@@ -442,6 +441,13 @@
              left: 15%;
          }
      }
+     .traditional {
+         .text {
+             p {
+                 padding-right: 0;
+             }
+         }
+     }
      .service {
          p {
              padding: 0;
@@ -470,5 +476,13 @@
                  padding: 0.9rem;
              }
          }
+     }
+     footer {
+         p {
+             padding-right: 0;
+         }
+     }
+     .col-4 {
+         padding-left: 50px !important;
      }
  }
