@@ -73,12 +73,10 @@ h1 {
 .header .banner {
   width: 30%;
   position: absolute;
-  top: 35%;
-  left: 35%;
-  -webkit-transform: translateX(-35%);
-          transform: translateX(-35%);
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   padding: 3rem;
   background-color: #d9dadab8;
   text-transform: uppercase;
@@ -437,8 +435,7 @@ footer ul li a:hover {
     padding-left: 0rem;
   }
   .header .banner {
-    width: 40%;
-    left: 30%;
+    width: 50%;
   }
   .second-menu .card-2 {
     margin-left: 150px;
@@ -471,8 +468,7 @@ footer ul li a:hover {
     padding-left: 0rem;
   }
   .header .banner {
-    width: 70%;
-    left: 15%;
+    width: 60%;
   }
   .traditional .text p {
     padding-right: 0;
